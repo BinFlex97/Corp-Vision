@@ -416,9 +416,12 @@ button.navbar-toggler.collapsed .fa-times{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(29, 42, 55, 0.7);
+  background-color: rgba(29, 42, 55, 0.6);
   left: 0;
   top: 0;
+}
+.dark .carousel-inner .carousel__overlay{
+  background-color: rgba(29, 42, 55, 0.7);
 }
 .carousel-inner .carousel-item img{
   background-size:cover ;
