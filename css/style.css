@@ -680,7 +680,7 @@ text-align: center;
 }
 
 .gallery .zoom img {
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
