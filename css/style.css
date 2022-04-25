@@ -458,10 +458,41 @@ button.navbar-toggler.collapsed .fa-times {
   z-index: 3;
   opacity: 1;
 }
+/* ---------------------STAR-TINH-------------------- */
+/* RESPONSIVE TINH */
+
+@media (max-width: 1080px) {
+  .title-big {
+    font-size: 32px !important;
+    line-height: 40px; } }
+
+@media (max-width: 568px) {
+  .title-big {
+    font-size: 30px !important;
+    line-height: 38px; } }
+
+@media (max-width: 415px) {
+  .title-big {
+    font-size: 26px !important;
+    line-height: 32px; }
+  .btn-white,
+  .btn-style {
+    padding: 12px 30px; } }
+
+@media (max-width: 375px) {
+  .btn-white,
+  .btn-style {
+    font-size: 16px; }
+  .title-big {
+    font-size: 24px !important;
+    line-height: 30px; } }
+
+
 /* ABOUT */
 .about {
   background-color: var(--bg-color);
 }
+
 /* ABOUT LEFT */
 
 .about .service-list li a {
@@ -721,7 +752,7 @@ text-align: center;
   padding: 0 18px;
 }
 
-/* ABOUT */
+/* ---------------------END-TINH-------------------- */
 
 /* SUCCESS TH */
 .progress__item {
