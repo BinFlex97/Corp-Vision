@@ -508,29 +508,38 @@ button.navbar-toggler.collapsed .fa-times {
 @media (max-width: 1080px) {
   .title-big {
     font-size: 32px !important;
-    line-height: 40px; } }
+    line-height: 40px;
+  }
+}
 
 @media (max-width: 568px) {
   .title-big {
     font-size: 30px !important;
-    line-height: 38px; } }
+    line-height: 38px;
+  }
+}
 
 @media (max-width: 415px) {
   .title-big {
     font-size: 26px !important;
-    line-height: 32px; }
+    line-height: 32px;
+  }
   .btn-white,
   .btn-style {
-    padding: 12px 30px; } }
+    padding: 12px 30px;
+  }
+}
 
 @media (max-width: 375px) {
   .btn-white,
   .btn-style {
-    font-size: 16px; }
+    font-size: 16px;
+  }
   .title-big {
     font-size: 24px !important;
-    line-height: 30px; } }
-
+    line-height: 30px;
+  }
+}
 
 /* ABOUT */
 .about {
@@ -1194,6 +1203,7 @@ footer {
 .footer_top .row a {
   color: #97a1a9;
   transition: all 0.5s;
+  opacity: 0.8;
 }
 
 .footer_top .row a:hover {
