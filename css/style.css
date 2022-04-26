@@ -372,6 +372,7 @@ header {
 /* BTN SWITCH */
 
 .btn__switch {
+  
   color: white;
   border: 0px;
   font-size: 20px;
@@ -546,6 +547,54 @@ button.navbar-toggler.collapsed .fa-times {
 .shape path{
   fill: var(--bg-color);
 }
+
+/* CAROUSEL RESPONSIVE */
+@media screen and (max-width:1200px) {
+  .carousel-item img{
+    width: 1200px;
+  }
+  .carousel-item .btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:992px) {
+  .carousel-item img{
+    width: 992px;
+  }
+  .carousel-item h1{
+    font-size: 30px;
+  }
+  .carousel-item p{
+    font-size: 12px; ;
+  }
+  .carousel-item .btn{
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:768px) {
+  .carousel-item img{
+    width: 800px;
+  }
+  .carousel-item h1{
+    font-size: 20px;
+  }
+  .carousel-item p{
+    font-size: 8px;
+  }
+  .carousel-item .btn{
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
+
+
 /* ---------------------STAR-TINH-------------------- */
 /* RESPONSIVE TINH */
 
