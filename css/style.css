@@ -502,6 +502,50 @@ button.navbar-toggler.collapsed .fa-times {
   z-index: 3;
   opacity: 1;
 }
+.carousel .carousel-control-prev{
+  position: absolute;
+  bottom: 60px;
+  right: 100px;
+  top: auto;
+  left: auto;
+}
+.carousel .carousel-control-next{
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  top: auto;
+  left: auto;
+}
+.carousel .carousel-control span{
+  color: var(--nav-color);
+  font-size: 15px;
+}
+.carousel-caption{
+  text-align: left;
+  left: 10%;
+  right: 10%;
+  bottom: 20%;
+  top: 20%;
+}
+.carousel-item .btn{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+.carousel-item img{
+  width: 100%;
+}
+.shape{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+}
+.shape path{
+  fill: var(--bg-color);
+}
 /* ---------------------STAR-TINH-------------------- */
 /* RESPONSIVE TINH */
 
