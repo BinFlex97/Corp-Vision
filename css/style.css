@@ -354,7 +354,6 @@ header {
   color: white;
   border: 0px;
   font-size: 20px;
-  transition: all 0.4s;
   z-index: 10;
 }
 
