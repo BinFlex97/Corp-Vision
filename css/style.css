@@ -202,7 +202,6 @@ header {
   color: var(--nav-color);
 }
 
-
 /* LOGO HEADER */
 .navCorp .navbar-brand {
   font-size: 30px;
@@ -447,6 +446,10 @@ button.navbar-toggler.collapsed .fa-times {
 }
 
 /* CAROUSEL */
+.corpCarousel {
+  overflow-x: hidden;
+  overflow-y: clip;
+}
 .carousel-inner .carousel__overlay {
   position: absolute;
   width: 100%;
@@ -505,40 +508,40 @@ button.navbar-toggler.collapsed .fa-times {
   z-index: 3;
   opacity: 1;
 }
-.carousel .carousel-control-prev{
+.carousel .carousel-control-prev {
   position: absolute;
   bottom: 60px;
   right: 100px;
   top: auto;
   left: auto;
 }
-.carousel .carousel-control-next{
+.carousel .carousel-control-next {
   position: absolute;
   bottom: 60px;
   right: 50px;
   top: auto;
   left: auto;
 }
-.carousel .carousel-control span{
+.carousel .carousel-control span {
   color: var(--nav-color);
   font-size: 15px;
 }
-.carousel-caption{
+.carousel-caption {
   text-align: left;
   left: 10%;
   right: 10%;
   bottom: 20%;
   top: 20%;
 }
-.carousel-item .btn{
+.carousel-item .btn {
   width: 200px;
   height: 50px;
   font-size: 20px;
 }
-.carousel-item img{
+.carousel-item img {
   width: 100%;
 }
-.shape{
+.shape {
   width: 101%;
   position: absolute;
   bottom: -2px;
@@ -546,58 +549,56 @@ button.navbar-toggler.collapsed .fa-times {
   z-index: 1;
   display: block;
 }
-.shape path{
+.shape path {
   fill: var(--bg-color);
 }
 
 /* CAROUSEL RESPONSIVE */
-@media screen and (max-width:1200px) {
-  .carousel-item img{
+@media screen and (max-width: 1200px) {
+  .carousel-item img {
     width: 1200px;
   }
-  .carousel-item .btn{
+  .carousel-item .btn {
     width: 200px;
     height: 50px;
     font-size: 20px;
   }
 }
-@media screen and (max-width:992px) {
-  .carousel-item img{
+@media screen and (max-width: 992px) {
+  .carousel-item img {
     width: 992px;
   }
-  .carousel-item h1{
+  .carousel-item h1 {
     font-size: 45px;
   }
-  .carousel-item p{
-    font-size: 15px; ;
+  .carousel-item p {
+    font-size: 15px;
   }
-  .carousel-item .btn{
+  .carousel-item .btn {
     width: 140px;
     height: 35px;
     font-size: 15px;
   }
 }
-@media screen and (max-width:768px) {
-  .carousel-item img{
+@media screen and (max-width: 768px) {
+  .carousel-item img {
     width: 800px;
   }
-  .carousel-item h1{
+  .carousel-item h1 {
     font-size: 20px;
     line-height: 20px;
   }
-  .carousel-item p{
+  .carousel-item p {
     font-size: 8px;
     line-height: 8px;
   }
-  .carousel-item .btn{
+  .carousel-item .btn {
     width: 90px;
     height: 20px;
     font-size: 10px;
     line-height: 8px;
   }
 }
-
-
 
 /* ---------------------STAR-TINH-------------------- */
 /* RESPONSIVE TINH */
@@ -1345,11 +1346,11 @@ footer {
   visibility: hidden;
   opacity: 0;
 }
-.cd-top--is-visible{
+.cd-top--is-visible {
   visibility: visible;
   opacity: 1;
 }
-.backtotop:hover{
+.backtotop:hover {
   color: white;
 }
 
