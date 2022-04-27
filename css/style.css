@@ -343,7 +343,7 @@ header {
   color: white;
   font-size: 80px;
   font-weight: bolder;
-  transition: all 0.3s;
+  transition: all 0.5s;
   visibility: hidden;
   opacity: 0;
   transform: rotate(90deg);
@@ -362,7 +362,7 @@ header {
 }
 
 .btn__search__actived {
-  transform: scale(80);
+  transform: scale(200);
 }
 
 .btn__search__actived i {
@@ -372,10 +372,12 @@ header {
 /* BTN SWITCH */
 
 .btn__switch {
-  
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   color: white;
   border: 0px;
-  font-size: 20px;
+  font-size: 25px;
   transition: all 0.4s;
   z-index: 10;
 }
@@ -410,14 +412,14 @@ button.navbar-toggler.collapsed .fa-times {
 
   .show .btn__search {
     position: absolute;
-    top: 37%;
-    right: 15%;
+    top: 45%;
+    right: 22%;
   }
 
   .show .btn__switch {
     position: absolute;
-    top: 40%;
-    right: 9%;
+    top: 50%;
+    right: 14%;
   }
 
   .navbar-collapse {
@@ -1337,6 +1339,7 @@ footer {
   line-height: 55px;
   border-radius: 50%;
   color: white;
+  z-index: 9;
 }
 
 .backtotop:hover {
