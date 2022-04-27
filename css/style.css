@@ -202,6 +202,7 @@ header {
   color: var(--nav-color);
 }
 
+
 /* LOGO HEADER */
 .navCorp .navbar-brand {
   font-size: 30px;
@@ -1340,15 +1341,15 @@ footer {
   border-radius: 50%;
   color: white;
   z-index: 9;
+  visibility: hidden;
+  opacity: 0;
 }
-
-.backtotop:hover {
-  color: white;
-}
-
-.cd-top--is-visible {
+.cd-top--is-visible{
   visibility: visible;
   opacity: 1;
+}
+.backtotop:hover{
+  color: white;
 }
 
 /* REPONSIVE  */
